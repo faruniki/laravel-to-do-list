@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500&family=Playfair+Display:wght@400;500&display=swap');
+
+/* Login Register */
+/* body{
+    background-image: url(assets/img/bande.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100%;
+    font-family: "Poppins", sans-serif;
+
+} */
+
+body {
+    background-image: url("assets/img/bande.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logreg .container{
+    width: 525px;
+    height: 475px;
+    margin-top: 70px;
+    padding-top: 50px;
+    background-color: rgba(255, 255, 255, 0.40);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0),
+          /* 0 0  0 1px rgb(245,245,245), */
+          0.3em 0.3em 1em rgba(0,0,0,0.1);
+}
+
+.logreg .container2{
+    width: 525px;
+    height: 530px;
+    margin-top: 70px;
+    padding-top: 50px;
+    background-color: rgba(255, 255, 255, 0.40);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0,0,0,0),
+          /* 0 0  0 1px rgb(245,245,245), */
+          0.3em 0.3em 1em rgba(0,0,0,0.1);
+}
+
+.logocoi {
+    width: 120px;
+    margin-top: -30px;
+    margin-bottom: -20px;
+}
+
+.deskcoi {
+    line-height: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 23px;
+    color: #000000;
+}
+
+.deskcoi2 {
+    line-height: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.logreg input{
+    margin: -3px 0px -3px 0px;
+    width: 443px;
+    height: 48px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 11px;
+    font-family: 'Oswald', sans-serif;
+    border: solid 0.5px;
+}
+
+.logreg button{
+    margin-top: 37px;
+    margin-bottom: 20px;
+    background: #2C2C2C;
+    border-radius: 999px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    width: 135px;
+    height: 35px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 5px 40px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    margin-bottom: 3px;
+}
+
+
+.before-hmu {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+}
+
+.hmu {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+}
+
+.hmu:hover {
+    color: #2C2C2C;
+}
+
+.logreg button:hover{
+    background-color: rgb(241, 239, 239);
+    color: black;
+    transition: 0.5s;
+}
+
+.readterms {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+nav li {
+    float: left;
+  }
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+nav .active {
+    background-color: #04AA6D;
+  }
+
+.dropdown-toogle:checked{
+    top: 90;
+}
+
+nav .nav-title{
+    font-style: italic;
+}
